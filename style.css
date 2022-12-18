@@ -1,0 +1,277 @@
+/*home page*/
+@font-face {
+  font-family: "Bee-Font";
+  src: url(./Fonts/Summerbee-vmgjD.ttf);
+}
+#body-page1 {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url(./images/Beeback.webp);
+  background-size: cover;
+  overflow-x: hidden;
+}
+.container {
+  width: 100%;
+  height: 10%;
+  padding-left: 2%;
+  padding-right: 2%;
+  box-sizing: border-box;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 75px;
+  cursor: pointer;
+  margin: 30px 0;
+}
+.menu-icon {
+  width: 75px;
+  cursor: pointer;
+}
+nav {
+  width: 300px;
+  display: inline;
+  flex: 1;
+  text-align: right;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+nav ul li a:hover {
+  color: #eba937;
+}
+#page1-h1 {
+  margin-left: 22%;
+  position: absolute;
+  font-family: "Bee-Font";
+  z-index: 3;
+  text-align: center;
+  font-size: 7em;
+}
+.HoneycombHome {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  position: relative;
+  border-radius: 10px;
+  display: block;
+  width: 320px;
+  height: 277px;
+  box-sizing: border-box;
+  -webkit-clip-path: polygon(
+    0% 50%,
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%
+  );
+  -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+  transition: transform 0.4s ease;
+}
+.HoneycombHome:hover {
+  transform: scale(1.2);
+}
+.BijGeleBloemHome {
+  position: relative;
+  left: 20%;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 8%;
+  width: 300px;
+  height: 300px;
+  transition: transform 0.4s ease;
+}
+.BijGeleBloemHome:hover {
+  transform: scale(1.2);
+}
+.DeKorf {
+  margin-top: 8%;
+  position: absolute;
+  right: 20%;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  transition: transform 0.4s ease;
+}
+.DeKorf:hover {
+  transform: scale(1.2);
+}
+/*soorten*/
+@font-face {
+  font-family: "Bee-Font";
+  src: url(./Fonts/Summerbee-vmgjD.ttf);
+}
+#body-page3 {
+  background-color: #9daa80;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+#page3-h1 {
+  color: #eba937;
+  margin-left: 22%;
+  position: absolute;
+  font-family: "Bee-Font";
+  z-index: 3;
+  text-align: center;
+  font-size: 7em;
+}
+.BeeOnHoney {
+  width: 20%;
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  border-radius: 8px;
+  box-shadow: 7px 6px 23px -9px rgba(0, 0, 0, 0.75);
+}
+.BijGeleBloem {
+  width: 20%;
+  position: absolute;
+  top: 82%;
+  right: 7%;
+  border-radius: 8px;
+  box-shadow: 7px 6px 23px -9px rgba(0, 0, 0, 0.75);
+}
+.Hommel {
+  width: 20%;
+  position: absolute;
+  top: 115%;
+  left: 7%;
+  border-radius: 8px;
+  box-shadow: 7px 6px 23px -9px rgba(0, 0, 0, 0.75);
+}
+
+/*honing*/
+@font-face {
+  font-family: "Honey";
+  src: url(./Fonts/MonkeyactPersonaluse-8Me6Z.otf);
+}
+#body-page4 {
+  background-color: #9daa80;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+#page4-h1 {
+  color: #eba937;
+  margin-left: 22%;
+  position: absolute;
+  font-family: "Honey";
+  z-index: 3;
+  text-align: center;
+  font-size: 7em;
+}
+#page4-h2 {
+  color: #eba937;
+  font-size: 3em;
+  width: 200%;
+}
+#page4-h3 {
+  font-size: 1em;
+}
+p1 {
+  font-size: 1em;
+  color: black;
+}
+.tekst1 {
+  margin-top: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.Honey {
+  top: 70%;
+  position: absolute;
+  left: 4%;
+  border-radius: 10px;
+  display: block;
+  width: 320px;
+  height: 277px;
+  box-sizing: border-box;
+  -webkit-clip-path: polygon(
+    0% 50%,
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%
+  );
+  -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+}
+.Honeycomb {
+  top: 35%;
+  position: absolute;
+  right: 4%;
+  border-radius: 10px;
+  display: block;
+  width: 320px;
+  height: 277px;
+  box-sizing: border-box;
+  -webkit-clip-path: polygon(
+    0% 50%,
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%
+  );
+  -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+}
+/*De korf*/
+@font-face {
+  font-family: "Flower";
+  src: url(./Fonts/KR\ First\ Bloom.ttf);
+}
+#body-page5 {
+  background-color: #9daa80;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+#page5-h1 {
+  color: #eba937;
+  margin-left: 22%;
+  position: absolute;
+  font-family: "Flower";
+  z-index: 3;
+  text-align: center;
+  font-size: 5em;
+}
+.CloseUpBee {
+  width: 45%;
+  position: absolute;
+  top: 55%;
+  left: 28%;
+  border-radius: 8px;
+  box-shadow: 7px 6px 23px -9px rgba(0, 0, 0, 0.75);
+}
+footer {
+  margin-top: 2%;
+  background-color: #eba937;
+  height: 3em;
+  position: absolute;
+  width: 100vw;
+  text-align: center;
+  line-height: 3em;
+}
